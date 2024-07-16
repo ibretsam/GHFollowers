@@ -15,6 +15,7 @@
 		AF7E1F0C2C4623C600F3A3F5 /* FavoriteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F0B2C4623C600F3A3F5 /* FavoriteListVC.swift */; };
 		AF7E1F0E2C46CA8400F3A3F5 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F0D2C46CA8400F3A3F5 /* GFButton.swift */; };
 		AF7E1F102C46CD2E00F3A3F5 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F0F2C46CD2E00F3A3F5 /* GFTextField.swift */; };
+		AF7E1F122C46DDED00F3A3F5 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F112C46DDED00F3A3F5 /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AF7E1F0B2C4623C600F3A3F5 /* FavoriteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListVC.swift; sourceTree = "<group>"; };
 		AF7E1F0D2C46CA8400F3A3F5 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		AF7E1F0F2C46CD2E00F3A3F5 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		AF7E1F112C46DDED00F3A3F5 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				AF7E1F002C458EBD00F3A3F5 /* LaunchScreen.storyboard */,
 				AF7E1F032C458EBD00F3A3F5 /* Info.plist */,
 				AF7E1F092C4623A200F3A3F5 /* SearchVC.swift */,
+				AF7E1F112C46DDED00F3A3F5 /* FollowerListVC.swift */,
 				AF7E1F0B2C4623C600F3A3F5 /* FavoriteListVC.swift */,
 			);
 			path = GHFollowers;
@@ -147,6 +150,7 @@
 				AF7E1F0C2C4623C600F3A3F5 /* FavoriteListVC.swift in Sources */,
 				AF7E1F0E2C46CA8400F3A3F5 /* GFButton.swift in Sources */,
 				AF7E1F0A2C4623A200F3A3F5 /* SearchVC.swift in Sources */,
+				AF7E1F122C46DDED00F3A3F5 /* FollowerListVC.swift in Sources */,
 				AF7E1EF62C458EBB00F3A3F5 /* AppDelegate.swift in Sources */,
 				AF7E1EF82C458EBB00F3A3F5 /* SceneDelegate.swift in Sources */,
 			);
