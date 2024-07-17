@@ -24,6 +24,7 @@
 		AF7E1F262C481FE200F3A3F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F252C481FE200F3A3F5 /* User.swift */; };
 		AF7E1F292C48241C00F3A3F5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F282C48241C00F3A3F5 /* NetworkManager.swift */; };
 		AF7E1F2E2C48392700F3A3F5 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F2D2C48392700F3A3F5 /* Configuration.swift */; };
+		AF7E1F312C483E4400F3A3F5 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F302C483E4400F3A3F5 /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		AF7E1F282C48241C00F3A3F5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		AF7E1F2C2C48383E00F3A3F5 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		AF7E1F2D2C48392700F3A3F5 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		AF7E1F302C483E4400F3A3F5 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				AF7E1F222C481EFF00F3A3F5 /* Model */,
 				AF7E1F1E2C48172B00F3A3F5 /* Screens */,
 				AF7E1F212C48182100F3A3F5 /* Support */,
+				AF7E1F2F2C483E3100F3A3F5 /* Utilities */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -148,6 +151,14 @@
 				AF7E1F282C48241C00F3A3F5 /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		AF7E1F2F2C483E3100F3A3F5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AF7E1F302C483E4400F3A3F5 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 				AF7E1F242C481F2200F3A3F5 /* Follower.swift in Sources */,
 				AF7E1F122C46DDED00F3A3F5 /* FollowerListVC.swift in Sources */,
 				AF7E1F292C48241C00F3A3F5 /* NetworkManager.swift in Sources */,
+				AF7E1F312C483E4400F3A3F5 /* ErrorMessage.swift in Sources */,
 				AF7E1F162C480D8100F3A3F5 /* GFBodyLabel.swift in Sources */,
 				AF7E1EF62C458EBB00F3A3F5 /* AppDelegate.swift in Sources */,
 				AF7E1EF82C458EBB00F3A3F5 /* SceneDelegate.swift in Sources */,
