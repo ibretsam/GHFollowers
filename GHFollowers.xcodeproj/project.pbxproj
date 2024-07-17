@@ -23,6 +23,7 @@
 		AF7E1F242C481F2200F3A3F5 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F232C481F2200F3A3F5 /* Follower.swift */; };
 		AF7E1F262C481FE200F3A3F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F252C481FE200F3A3F5 /* User.swift */; };
 		AF7E1F292C48241C00F3A3F5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F282C48241C00F3A3F5 /* NetworkManager.swift */; };
+		AF7E1F2E2C48392700F3A3F5 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F2D2C48392700F3A3F5 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		AF7E1F232C481F2200F3A3F5 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		AF7E1F252C481FE200F3A3F5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AF7E1F282C48241C00F3A3F5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AF7E1F2C2C48383E00F3A3F5 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		AF7E1F2D2C48392700F3A3F5 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		AF7E1EE92C458EBB00F3A3F5 = {
 			isa = PBXGroup;
 			children = (
+				AF7E1F2C2C48383E00F3A3F5 /* Config.xcconfig */,
 				AF7E1EF42C458EBB00F3A3F5 /* GHFollowers */,
 				AF7E1EF32C458EBB00F3A3F5 /* Products */,
 			);
@@ -122,6 +126,7 @@
 			children = (
 				AF7E1EF52C458EBB00F3A3F5 /* AppDelegate.swift */,
 				AF7E1EFE2C458EBD00F3A3F5 /* Assets.xcassets */,
+				AF7E1F2D2C48392700F3A3F5 /* Configuration.swift */,
 				AF7E1F002C458EBD00F3A3F5 /* LaunchScreen.storyboard */,
 				AF7E1EF72C458EBB00F3A3F5 /* SceneDelegate.swift */,
 			);
@@ -221,6 +226,7 @@
 				AF7E1F0C2C4623C600F3A3F5 /* FavoriteListVC.swift in Sources */,
 				AF7E1F1C2C48148100F3A3F5 /* UIViewController+Ext.swift in Sources */,
 				AF7E1F0E2C46CA8400F3A3F5 /* GFButton.swift in Sources */,
+				AF7E1F2E2C48392700F3A3F5 /* Configuration.swift in Sources */,
 				AF7E1F0A2C4623A200F3A3F5 /* SearchVC.swift in Sources */,
 				AF7E1F142C480C3400F3A3F5 /* GFTitleLabel.swift in Sources */,
 				AF7E1F242C481F2200F3A3F5 /* Follower.swift in Sources */,
@@ -367,6 +373,7 @@
 		};
 		AF7E1F072C458EBD00F3A3F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7E1F2C2C48383E00F3A3F5 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -396,6 +403,7 @@
 		};
 		AF7E1F082C458EBD00F3A3F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7E1F2C2C48383E00F3A3F5 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
