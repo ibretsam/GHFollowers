@@ -24,7 +24,9 @@
 		AF7E1F262C481FE200F3A3F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F252C481FE200F3A3F5 /* User.swift */; };
 		AF7E1F292C48241C00F3A3F5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F282C48241C00F3A3F5 /* NetworkManager.swift */; };
 		AF7E1F2E2C48392700F3A3F5 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F2D2C48392700F3A3F5 /* Configuration.swift */; };
-		AF7E1F312C483E4400F3A3F5 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F302C483E4400F3A3F5 /* ErrorMessage.swift */; };
+		AF7E1F312C483E4400F3A3F5 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F302C483E4400F3A3F5 /* GFError.swift */; };
+		AF7E1F342C48D10700F3A3F5 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F332C48D10700F3A3F5 /* FollowerCell.swift */; };
+		AF7E1F362C48D17E00F3A3F5 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F352C48D17E00F3A3F5 /* GFAvatarImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +50,9 @@
 		AF7E1F282C48241C00F3A3F5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		AF7E1F2C2C48383E00F3A3F5 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		AF7E1F2D2C48392700F3A3F5 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		AF7E1F302C483E4400F3A3F5 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		AF7E1F302C483E4400F3A3F5 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
+		AF7E1F332C48D10700F3A3F5 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		AF7E1F352C48D17E00F3A3F5 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		AF7E1F1F2C48177900F3A3F5 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				AF7E1F322C48D0DD00F3A3F5 /* Cells */,
 				AF7E1F172C480E7200F3A3F5 /* GFAlertViewController.swift */,
 				AF7E1F152C480D8100F3A3F5 /* GFBodyLabel.swift */,
 				AF7E1F0D2C46CA8400F3A3F5 /* GFButton.swift */,
@@ -156,9 +161,18 @@
 		AF7E1F2F2C483E3100F3A3F5 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				AF7E1F302C483E4400F3A3F5 /* ErrorMessage.swift */,
+				AF7E1F302C483E4400F3A3F5 /* GFError.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AF7E1F322C48D0DD00F3A3F5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AF7E1F332C48D10700F3A3F5 /* FollowerCell.swift */,
+				AF7E1F352C48D17E00F3A3F5 /* GFAvatarImageView.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,12 +252,14 @@
 				AF7E1F1C2C48148100F3A3F5 /* UIViewController+Ext.swift in Sources */,
 				AF7E1F0E2C46CA8400F3A3F5 /* GFButton.swift in Sources */,
 				AF7E1F2E2C48392700F3A3F5 /* Configuration.swift in Sources */,
+				AF7E1F342C48D10700F3A3F5 /* FollowerCell.swift in Sources */,
+				AF7E1F362C48D17E00F3A3F5 /* GFAvatarImageView.swift in Sources */,
 				AF7E1F0A2C4623A200F3A3F5 /* SearchVC.swift in Sources */,
 				AF7E1F142C480C3400F3A3F5 /* GFTitleLabel.swift in Sources */,
 				AF7E1F242C481F2200F3A3F5 /* Follower.swift in Sources */,
 				AF7E1F122C46DDED00F3A3F5 /* FollowerListVC.swift in Sources */,
 				AF7E1F292C48241C00F3A3F5 /* NetworkManager.swift in Sources */,
-				AF7E1F312C483E4400F3A3F5 /* ErrorMessage.swift in Sources */,
+				AF7E1F312C483E4400F3A3F5 /* GFError.swift in Sources */,
 				AF7E1F162C480D8100F3A3F5 /* GFBodyLabel.swift in Sources */,
 				AF7E1EF62C458EBB00F3A3F5 /* AppDelegate.swift in Sources */,
 				AF7E1EF82C458EBB00F3A3F5 /* SceneDelegate.swift in Sources */,
