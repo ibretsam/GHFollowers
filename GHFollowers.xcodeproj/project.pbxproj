@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0A68BA2C4BBAD500B3FB8D /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A68B92C4BBAD500B3FB8D /* UIHelper.swift */; };
 		AF7E1EF62C458EBB00F3A3F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1EF52C458EBB00F3A3F5 /* AppDelegate.swift */; };
 		AF7E1EF82C458EBB00F3A3F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1EF72C458EBB00F3A3F5 /* SceneDelegate.swift */; };
 		AF7E1EFF2C458EBD00F3A3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7E1EFE2C458EBD00F3A3F5 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF0A68B92C4BBAD500B3FB8D /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		AF7E1EF22C458EBB00F3A3F5 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7E1EF52C458EBB00F3A3F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF7E1EF72C458EBB00F3A3F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				AF7E1F302C483E4400F3A3F5 /* GFError.swift */,
+				AF0A68B92C4BBAD500B3FB8D /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				AF7E1F122C46DDED00F3A3F5 /* FollowerListVC.swift in Sources */,
 				AF7E1F292C48241C00F3A3F5 /* NetworkManager.swift in Sources */,
 				AF7E1F312C483E4400F3A3F5 /* GFError.swift in Sources */,
+				AF0A68BA2C4BBAD500B3FB8D /* UIHelper.swift in Sources */,
 				AF7E1F162C480D8100F3A3F5 /* GFBodyLabel.swift in Sources */,
 				AF7E1EF62C458EBB00F3A3F5 /* AppDelegate.swift in Sources */,
 				AF7E1EF82C458EBB00F3A3F5 /* SceneDelegate.swift in Sources */,
