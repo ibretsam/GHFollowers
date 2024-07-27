@@ -40,6 +40,7 @@
 		AF7E1F342C48D10700F3A3F5 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F332C48D10700F3A3F5 /* FollowerCell.swift */; };
 		AF7E1F362C48D17E00F3A3F5 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E1F352C48D17E00F3A3F5 /* GFAvatarImageView.swift */; };
 		AF9A374A2C54E63B00CD3A77 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A37492C54E63B00CD3A77 /* PersistenceManager.swift */; };
+		AF9A374C2C55046700CD3A77 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A374B2C55046700CD3A77 /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		AF7E1F332C48D10700F3A3F5 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		AF7E1F352C48D17E00F3A3F5 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		AF9A37492C54E63B00CD3A77 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		AF9A374B2C55046700CD3A77 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				AF7E1F332C48D10700F3A3F5 /* FollowerCell.swift */,
+				AF9A374B2C55046700CD3A77 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				AF7E1F342C48D10700F3A3F5 /* FollowerCell.swift in Sources */,
 				AF7E1F362C48D17E00F3A3F5 /* GFAvatarImageView.swift in Sources */,
 				AF9A374A2C54E63B00CD3A77 /* PersistenceManager.swift in Sources */,
+				AF9A374C2C55046700CD3A77 /* FavoriteCell.swift in Sources */,
 				AF6EEC2C2C52A7C7007A06D1 /* GFRepoItemVC.swift in Sources */,
 				AF7E1F0A2C4623A200F3A3F5 /* SearchVC.swift in Sources */,
 				AF6EEC202C4E9B65007A06D1 /* UserInfoVC.swift in Sources */,
