@@ -11,7 +11,7 @@ class FavoriteListVC: GFDataLoadingVC {
     
     let tableView = UITableView()
     var favorites: [Follower] = []
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
@@ -21,6 +21,18 @@ class FavoriteListVC: GFDataLoadingVC {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         getFavorites()
+    }
+    
+    override func updateContentUnavailableConfiguration(using state: UIContentUnavailableConfigurationState) {
+        if favorites.isEmpty {
+            var config = UIContentUnavailableConfiguration.empty()
+            config.image = .init(systemName: "star")
+            config.text = "No Favorites"
+            config.secondaryText = "Add a favorite one the follower list screen"
+            contentUnavailableConfiguration = config
+        } else {
+            contentUnavailableConfiguration = nil
+        }
     }
     
     func configureViewController() {
@@ -55,15 +67,13 @@ class FavoriteListVC: GFDataLoadingVC {
     }
     
     func updateUI(with favorites: [Follower]) {
-        if favorites.isEmpty {
-            self.showEmptyStateView(with: "No Favorites?\nAdd one on the follower screen.", in: self.view)
-        } else {
-            self.favorites = favorites
-            DispatchQueue.main.async {
-                self.tableView.reloadData()
-                self.view.bringSubviewToFront(self.tableView)
-            }
+        self.favorites = favorites
+        setNeedsUpdateContentUnavailableConfiguration()
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+            self.view.bringSubviewToFront(self.tableView)
         }
+        
     }
 }
 
@@ -94,6 +104,7 @@ extension FavoriteListVC: UITableViewDataSource, UITableViewDelegate {
             guard let error = error else {
                 self.favorites.remove(at: indexPath.row)
                 tableView.deleteRows(at: [indexPath], with: .left)
+                setNeedsUpdateContentUnavailableConfiguration()
                 return
             }
             
